@@ -31,7 +31,6 @@ class TemporalVariableTransformer(BaseEstimator, TransformerMixin):
         return X
 
 
-
 # categorical missing value imputer
 class Mapper(BaseEstimator, TransformerMixin):
 
