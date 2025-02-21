@@ -1,8 +1,8 @@
 from my_module import square 
 
-def test_square_gives_correct_output():
+def test_square_gives_correct_output(input_value):
     # when
-    subject = square(2)
+    subject = square(input_value)
     
     #then
-    assert subject == 4
+    assert subject == 16 
